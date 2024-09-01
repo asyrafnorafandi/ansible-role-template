@@ -1,0 +1,31 @@
+---
+# Dependencies (Optional)
+# dependencies:
+#   - role: geerlingguy.swap
+#     become: true
+#     when: swap_enabled == true
+
+# Collections (Optional)
+# collections:
+#   - community.general
+
+# Galaxy Info Metadata
+galaxy_info:
+  role_name: template
+  author: "Asyraf Norafandi"
+  description: Ansible role template
+  license: "license (BSD, MIT)"
+  min_ansible_version: "2.10"
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+        - bookworm
+    - name: Ubuntu
+      versions:
+        - jammy
+        - noble
+  galaxy_tags:
+    - system
+    - server

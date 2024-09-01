@@ -1,0 +1,14 @@
+[Unit]
+Description=Sample
+
+[Service]
+User=sample
+Group=sample
+  
+ExecStart=/usr/local/bin/sample
+
+Restart=always
+RestartSec=120
+
+[Install]
+WantedBy=multi-user.target
